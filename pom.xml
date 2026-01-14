@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>org.scijava</groupId>
+    <artifactId>pom-scijava</artifactId>
+    <version>43.0.0</version>
+    <relativePath />
+  </parent>
+
+  <groupId>org.scijava.test</groupId>
+  <artifactId>scijava-multimodule-example</artifactId>
+  <version>1.0.0-SNAPSHOT</version>
+  <packaging>pom</packaging>
+
+  <name>SciJava Multi-Module Example</name>
+  <description>Example multi-module Maven project modeled after SciJava.</description>
+  <url>https://github.com/scijava/scijava</url>
+  <inceptionYear>2026</inceptionYear>
+
+  <organization>
+    <name>SciJava</name>
+    <url>https://scijava.org/</url>
+  </organization>
+  <licenses>
+    <license>
+      <name>N/A - See individual modules</name>
+    </license>
+  </licenses>
+
+  <developers>
+    <developer>
+      <name>N/A - see individual modules</name>
+    </developer>
+  </developers>
+  <contributors>
+    <contributor>
+      <name>N/A - see individual modules</name>
+    </contributor>
+  </contributors>
+
+  <mailingLists>
+    <mailingList>
+      <name>N/A - see individual modules</name>
+    </mailingList>
+  </mailingLists>
+
+  <modules>
+    <module>a</module>
+    <module>b</module>
+    <module>c</module>
+  </modules>
+
+  <scm>
+    <connection>scm:git:https://github.com/gselzer/scijava-multimodule-example</connection>
+    <developerConnection>scm:git:git@github.com:gselzer/scijava-multimodule-example</developerConnection>
+    <tag>HEAD</tag>
+    <url>https://github.com/gselzea/scijava-multimodule-example</url>
+  </scm>
+  <issueManagement>
+    <system>N/A - see individual modules</system>
+  </issueManagement>
+  <ciManagement>
+    <system>GitHub Actions</system>
+    <url>https://github.com/gselzer/scijava-multimodule-example/actions</url>
+  </ciManagement>
+
+  <properties>
+    <license.licenseName>N/A</license.licenseName>
+    <license.copyrightOwners>N/A</license.copyrightOwners>
+
+    <!-- NB: Do not install/deploy this aggregator POM. -->
+    <maven.deploy.skip>true</maven.deploy.skip>
+    <maven.install.skip>true</maven.install.skip>
+  </properties>
+
+</project>
